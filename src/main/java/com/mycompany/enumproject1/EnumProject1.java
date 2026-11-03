@@ -32,7 +32,7 @@ public class EnumProject1{
          carDealership.car2,
          carDealership.car3
         };
-         for(int i = 0 ; i < 3 ; i++){ 
+         for(int i = 0 ; i < car.length ; i++){ 
             System.out.println("CAR_NAME: " + car[i].car  + "  " + "CAR_PRICE: " + car[i].currency + car[i].price);
     }        }
 
